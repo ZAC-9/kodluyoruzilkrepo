@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google 1998</title>
+    <style>
+        body {background-color: black; margin: 0; box-sizing: border-box; background-color: white !important;}
+        .box-body {width: 90%; background-color: #ffff; margin-left: 5%;}
+        img {margin-left: 40%;}
+        .box-1 {background-color: #EEEEEE; text-align: center;  padding: 10px; margin-bottom: 0;} 
+        ul {list-style: none;} 
+        li {margin-right: 15px;}
+        .box-2 , .box-3 , .box-4 {height: 107px; float: left; text-align: center;}
+        .box-2 {background-color: #7EE5DA; width: 40%;}
+        .box-3 {background-color: #70CCC2; width: 20%;}
+        .box-4 {background-color: #62B3AA;width: 40%;}
+        .box-4-type {padding: 3px;}
+        p {margin-bottom: 2px;}
+        footer {margin-top: 8%;}   
+    </style>
+
+</head>
+<body>
+
+     <!---İlk olarak içerikleri hazırlamadan önce body ayarları yaptım-->
+     <!---Kutu modellerini daha iyi görebilmek Body Backgroundu siyah yaptım-->
+     <!-- Daha sonra Box-Body açarak ana gövdeyi oluşturdum ve Css özelliklerini ekledim-->
+
+     <div class="box-body">
+        <header>
+            <img src="google.jpg" alt="Logo">
+        </header>
+        <div class="box-1">
+            Search the web using Google! <br>
+            <input type="text" size="50"> <br>
+            <input type="button" value="Google Search">
+            <input type="button" value="I'm Feeling Lucky">
+        </div>
+
+        <!--Header ile başlık kısmına logo ekledim daha sonra ilk kutuyu oluşturarak içeriklerini ekledim tabi Css özelliklerini de--->
+
+        <div class="box-2">
+            <ul>
+                <li>Special Searches</li>
+                <li><a href="#">Stanford Searches</a></li>
+                <li><a href="#">Linux Search</a></li>
+            </ul>
+        </div>
+
+        <!--Sırasıyla 2. 3. ve 4. kutuları ve içeriklerini ekledim aynı zamanda css özellikleri ile görsel düzeltmelerini yaptım-->
+        <!--İçerikleri , alt alta sıralamak yerine liste yapısı ile oluşturdum -->
+
+
+        <div class="box-3">
+            <ul>
+                <li><a href="#">Help!</a></li>
+                <li><a href="#">About Google!</a></li>
+                <li><a href="#">Company Info</a></li>
+                <li><a href="#">Google! Logos</a></li>
+            </ul>
+        </div>
+
+        <div class="box-4">
+            <p>Get Google! <br> uptades monthly:</p>
+            <input type="text" value="your e-mail" size="30" class="box-4-type"> <br>
+            <input type="button" value="Subscribe" class="box-4-type">
+            <a href="#">Archive</a>
+        </div>
+
+        <!--Box-1 ve 4'e butonları ve text yapısı da eklenildi-->
+        <!--Footer ile son satırı açarak içeriği ekledim ve -i- tagı ile stil verdim-->
+        
+        <footer style="text-align: center;">
+            <p><i>Copyright ©1998 Google Inc.</i></p>
+        </footer>
+
+        <!--Body'nin Background'una beyaz rengini tekrar ekledim ve İmportant tagı ile öncelik sırasına aldım.Böylece sayfa tamamlanmış oldu.-->
+
+
+    </div>
+    
+</body>
+</html>
