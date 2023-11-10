@@ -6,7 +6,7 @@ Giriş Yap butonuna link koymadım
 Kayıt ol butonuna Kayıt Formu ekledim
 Hakkımızda kısmında basit bir satır oluşturduktan sonra doldurmak için Lorem kullandım
 Sol üst köşede herhangi bir P harfi resmini logo olarak ekledim
-Yeni ürünlerin üzerine gölgeleme ekledim 
+Yeni ürünlerin üzerine gölgeleme ekledim imleç ile resimlerin üzerine geldiğinizde gölge efekti farkediliyor
 
 ------------
 
