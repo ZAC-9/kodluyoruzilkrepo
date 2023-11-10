@@ -8,4 +8,4 @@ Yalnızca temel etiketler kullanıldı
 
 ### Site görünümü 
 
-<img src="Ekran Alıntısı.JPG>
+<img src="Ekran Alıntısı.JPG">
